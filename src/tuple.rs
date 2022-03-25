@@ -7,3 +7,47 @@ fn main() {
     // 填空让代码工作
     let t: (u8, u16, i64, &str, String) = (1u8, 2u16, 3i64, "hello", String::from(", world"));
 }
+//2
+fn main() {
+    let t = ("i", "am", "sunface");
+    assert_eq!(t.2, "sunface");
+ }
+ 
+ //4
+
+fn main() {
+    let tup = (1, 6.4, "hello");
+
+    // 填空
+    let (x,z,y) = tup;
+
+    assert_eq!(x, 1);
+    assert_eq!(y, "hello");
+    assert_eq!(z, 6.4);
+}
+//5
+fn main() {
+    let (x, y, z);
+
+    // 填空
+    (y,z,x) = (1, 2, 3);
+    
+    assert_eq!(x, 3);
+    assert_eq!(y, 1);
+    assert_eq!(z, 2);
+}
+
+//6
+
+fn main() {
+    // 填空，需要稍微计算下
+    let (x, y) = sum_multiply((2,3));
+ 
+    assert_eq!(x, 5);
+    assert_eq!(y, 6);
+ }
+ 
+ fn sum_multiply(nums: (i32, i32)) -> (i32, i32) {
+     (nums.0 + nums.1, nums.0 * nums.1)
+ }
+ 
