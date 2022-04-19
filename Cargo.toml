@@ -1,2 +1,2 @@
 [workspace]
-members = ['learning','practice']
+members = ['learning','practice','imgtool','collections','hashmap']
