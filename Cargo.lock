@@ -276,6 +276,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "genericty"
+version = "0.1.0"
+
+[[package]]
 name = "getrandom"
 version = "0.1.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -576,6 +580,10 @@ checksum = "6389c490849ff5bc16be905ae24bc913a9c8892e19b2341dbc175e14c341c2b8"
 dependencies = [
  "cfg-if",
 ]
+
+[[package]]
+name = "ltrait"
+version = "0.1.0"
 
 [[package]]
 name = "lzw"
@@ -1108,6 +1116,10 @@ dependencies = [
  "web-sys",
  "winreg",
 ]
+
+[[package]]
+name = "result"
+version = "0.1.0"
 
 [[package]]
 name = "ryu"
